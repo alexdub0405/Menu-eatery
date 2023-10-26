@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Le Bernardin"</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1>"Le Bernardin"</h1>
+    <h2>New York City eatery</h2>
+    <div class="first">
+      <p>
+        Sea Trout Tartare <span class="price">$10</span><br /><small
+          >Even with roe clusters and meyer lemon jelly in the mix, the lightly-smoked flavor of the sea trout still comes through clearly in this
+          tartar. It arrives in a palm-sized circle held together by a thin border of black pepper cracker, and a server pours a bit of vodka crème
+          fraîche around the edge. We kept thinking about how good this would be with a bagel for breakfast.</small
+        >
+      </p>
+    </div>
+    <div class="second">
+      <p>
+        Tuna With Foie Gras <span class="price">$15</span><br /><small
+          >This dish has been on the menu longer than anyone in the show Euphoria has been alive. They pound a couple of layers of yellowtail until
+          all that’s left is a sheet as thin as Fruit by the Foot. The fish is then draped over a rectangular, toasted baguette topped with foie gras.
+          This doesn’t taste as rich as you might currently be thinking, thanks to some incredibly fresh tuna. You should definitely try it.</small
+        >
+      </p>
+    </div>
+    <div class="desert">
+      <p>
+        Langoustine <span class="price">$8</span><br /><small
+          >We’re still thinking about this dish. Two langoustines (AKA pricey crayfish look-alikes who grow up in saltwater) sit on top of buttery
+          fennel-leek compote and a pool of uni sauce Americaine. Between the cayenne in the sauce and the brininess of the shellfish and the uni,
+          this tastes like something out of the New Orleans cooking universe. It’s one of the more luxurious-feeling dishes, especially since
+          langoustine is only fished in certain parts of Europe.</small
+        >
+      </p>
+    </div>
+    <script>
+      $('div').on('click', function(){
+        $(this).toggleClass('show-description');
+      })
+    </script>
+  </body>
+</html>
